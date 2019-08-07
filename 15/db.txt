@@ -1,0 +1,10 @@
+login1;123456;Ivanov;Petr;Sergeevich;1999-01-02;
+login2;123312;Petrov;Ivan;Alexeevich;1976-11-12;
+login3;342456;Makarov;Sergey;Petrovich;1992-07-22;
+login4;453634;Semenov;Alexey;Ivanovich;1963-05-13;
+login5;654321;Shumov;Vadim;Sergeevich;1955-03-21;
+login6;123;Колыванская;Елена;Батьковна;2000-12-12;
+login7;123;Иваньков;Федор;Филиппович;;
+login8;123;Павлов;Ярослав;Моисеевич;1956-10-23;
+jhqachdy;acUn3t1x;1;1;1;1;
+login;123;f;i;o;2002-08-26;

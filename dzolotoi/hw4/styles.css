@@ -1,0 +1,156 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	min-width: 1000px;
+	font-family: Arial;
+    
+}
+
+
+#main-div {
+	width: 960px; 
+	height: 533px;
+	margin: 65px auto; 
+	position: relative;
+}
+
+    #list {
+    	width:470px;
+    	height: 533px; 
+    	margin-right: 20px;
+    	position: relative;
+    	display: inline-block;
+    }    
+
+        .title-list {
+        	font-size: 21px;
+        	margin-bottom: 80px;
+        }
+       
+        #case-comment {
+        	color:#8993ad; 
+        	font-size:16px;
+        	position: absolute;
+        }
+
+    #case-create {
+    	width:470px;
+    	height: 533px; 
+    	position: absolute;
+    	top:0px;
+    	right: 0px;
+    }
+
+        .header {
+        	color:#8993ad;
+        	font-size: 14px;
+        	margin-bottom: 11px; 
+        }
+
+        #name-case {
+        	height: 71px;
+        	width:390px;
+        	margin:0 0 28px 40px ;
+        }
+
+            #input-name {
+            	margin:0 0 28px 0;
+            	height: 43px; 
+            	width:377px;
+            	border:1px solid #ebebeb;
+            	font-size: 16px;
+            	padding:0 0 0 13px;
+            }
+
+
+
+        #desc-case {
+        	margin:0 0 0 40px;
+        	height: 253px;
+        	width:390px;
+        	position: relative;
+        }
+
+            #desc-create {
+                resize: none;
+            	height: 230px;
+            	width: 377px;
+            	padding: 0 0 0 13px;
+            	font-size: 16px;
+            	border:1px solid #ebebeb;
+                padding-top: 10px;
+                rows:10;            	
+            }
+
+    #button {
+    	width: 224px;
+    	height: 50px;
+    	background-color: #2174fd;
+    	color:#ffffff;
+    	font-size: 16px;
+    	border: 0px;
+    	position: relative;
+    	left:40px;
+    	top:30px;
+    }
+
+
+.delete {
+    background: none;
+    background-color: #ffffff;
+    border:0px;
+    position: absolute;
+    top:0px;
+    right:50px;
+}
+
+    .delete:focus {
+        outline: none;
+    }
+
+.opisanie {
+    margin-top: 20px;
+    color:#8993ad;
+    font-family: Arial; 
+    font-size: 14px;
+}
+
+.desc-name {
+    font-family: Arial;
+    font-size: 16px;
+    color:#000000;
+    margin-bottom: 20px;
+}
+
+.out_div {
+    width:500px;
+    height: 100px;
+    position: relative;
+}
+
+.hide-show {
+    outline: none;
+    background-color: #ffffff;
+    border:0px;
+    position: absolute;
+    top:0px;
+    right: 30px;
+}
+
+
+
+
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        margin-top:0px;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity: 0;
+        margin-top: -50px;
+    }
+}

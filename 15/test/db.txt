@@ -1,0 +1,4 @@
+login;password;f;i;o;23;
+login2;password2;f2;i2;o2;31;
+login3;password3;f3;i3;o3;26;
+login4;password4;f4;i4;o4;42;
